@@ -9,11 +9,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* width: 1000px; */
   position: fixed;
   z-index: 5;
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  top: 0;
+  width: 100%;
   background-color: white;
   border-bottom: 1px solid black;
 
@@ -35,13 +34,12 @@
 }
 
 
-nav span {
+.header nav span {
   display: inline-block;
   padding: 20px 10px;
   align-self: flex-end;
   flex-grow: 1;
   flex-shrink: 3;
-
 }
 
 .main-container {
@@ -153,6 +151,52 @@ h2 {
   font-size: 12px;
   color: DimGray;
   padding: 10px 20px;
+}
+
+.footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.company-nav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.company {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 18px;
+  display: inline-block;
+}
+
+.footer nav span {
+  display: inline-block;
+  padding: 2px 10px;
+  /* align-self: flex-end;
+  flex-grow: 1;
+  flex-shrink: 3; */
+
+}
+
+
+.copyright {
+  padding-top: 20px;
+  align-self: center;
+
 }
 
 #mainstory-img {
